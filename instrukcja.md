@@ -110,4 +110,31 @@ Centrowanie zawartości kolumn realizowane jest poprzez odpowiednie użycie znak
 #### Tworzenie spisu treści na podstawie nagłówków
 
 ## Edytory dedykowane
+
+Pracę nad dokumentami w formacie Markdown (rozszerzenie .md) można wykonywać w dowolnym edytorze tekstowym. Aczkolwiek istnieje wiele dedykowanych narzędzi
+
+1. marktext - [https://github.com/marktext/marktext]
+
+2. [https://hackmd.io/] online editor
+
+3. Visual Studio Code z wtyczką "markdown preview"
+
 ### Pandoc - system do konwersji dokumentów Markdown do innych formatów
+
+Jest to oprogramowanie typu open source służące do konwertowania dokumentów pomiędzy różnymi formatami.
+
+Pod poniższym linkiem można obejrzeć przykłady użycia:
+
+[https://pandoc.org/demos.html]
+
+Oprogramowanie to można pobrać spod adresu: [https://pandoc.org/installing.html]
+
+Jeżeli chcemy konwertować do formatu latex i pdf trzeba doinstalować oprogramowanie składu Latex (np. Na windows najlepiej sprawdzi się Miktex [https://miktex.org])
+
+Gdyby podczas konwersji do formatu pdf pojawił się komunikat o niemożliwości znalezienia programu pdflatex rozwiązaniem jest wskazanie w zmiennej środowiskowej PATH miejsca jego położenia
+
+Pod adresem ([https://gitlab.com/mniewins66/templtemn.git]) znajduje się przykładowy plik markdown z którego można wygenerować prezentację w formacie pdf wykorzystując klasę latexa beamer.
+
+W tym celu należy wydać polecenie z poziomu terminala:
+
+$pandoc templateMN.md -t beamer -o prezentacja.pdf
