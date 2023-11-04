@@ -22,6 +22,7 @@ Przykład kodu *html* i jego interpretacja w przeglądarce:
 </body>
 </html>
 ```
+![alt text](Img1.png)
 
 Przykład kodu *Latex* i wygenerowanego pliku w formacie *pdf*:
 ```Latex
@@ -38,6 +39,7 @@ Przykład kodu *Latex* i wygenerowanego pliku w formacie *pdf*:
 \end{letter}
 \end{document}
 ```
+![alt text](Img2.png)
 
 Przykład kodu *XML* - fragment dokumentu *SVG (Scalar Vector Graphics)*:
 ```XML
@@ -50,6 +52,8 @@ Przykład kodu *XML* - fragment dokumentu *SVG (Scalar Vector Graphics)*:
 </body>
 </html>
 ```
+![alt text](Img3.png)
+
 W tym przypadku mamy np. znacznik np. <circle> opisujący parametry koła i który moze być właściwie zinterpretowany przez dedykowaną aplikację (np. przeglądarki www).
 
 Jako ciekawostkę można podać fakt, że również pakiet MS Office wykorzystuje format XML do przechowywania informacji o dodatkowych parametrach formatowania danych. Na przykład pliki z rozszerzeniem *docx*, to nic innego spakowane algorytmem zip katalogi z plikami xml.
@@ -83,12 +87,23 @@ Podany link: [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet] 
 W tym celu używamy znaku kratki
 
 Lewe okno zawiera kod źródłowy - prawe - podgląd przetworzonego tekstu
+
+![alt text](Img4.png)
+
 ### Definiowanie list
+
+![alt text](Img5.png)
+
 Listy numerowane definiujemy wstawiając numery kolejnych pozycji zakończone kropką. Listy numerowane definiujemy znakami: *,+,-
 
 ### Wyróżnianie tekstu
 
+![alt text](Img6.png)
+
 ### Tabele
+
+![alt text](Img7.png)
+
 Centrowanie zawartości kolumn realizowane jest poprzez odpowiednie użycie znaku dwukropka:
 
 ### Odnośniki do zasobów
@@ -107,7 +122,11 @@ Centrowanie zawartości kolumn realizowane jest poprzez odpowiednie użycie znak
 
 #### Kod źródłowy dla różnych języków programowania
 
+![alt text](Img8.png)
+
 #### Tworzenie spisu treści na podstawie nagłówków
+
+![alt text](Img9.png)
 
 ## Edytory dedykowane
 
@@ -119,7 +138,9 @@ Pracę nad dokumentami w formacie Markdown (rozszerzenie .md) można wykonywać 
 
 3. Visual Studio Code z wtyczką "markdown preview"
 
-### Pandoc - system do konwersji dokumentów Markdown do innych formatów
+![alt text](Img10.png)
+
+## Pandoc - system do konwersji dokumentów Markdown do innych formatów
 
 Jest to oprogramowanie typu open source służące do konwertowania dokumentów pomiędzy różnymi formatami.
 
@@ -132,6 +153,10 @@ Oprogramowanie to można pobrać spod adresu: [https://pandoc.org/installing.htm
 Jeżeli chcemy konwertować do formatu latex i pdf trzeba doinstalować oprogramowanie składu Latex (np. Na windows najlepiej sprawdzi się Miktex [https://miktex.org])
 
 Gdyby podczas konwersji do formatu pdf pojawił się komunikat o niemożliwości znalezienia programu pdflatex rozwiązaniem jest wskazanie w zmiennej środowiskowej PATH miejsca jego położenia
+
+![alt text](Img11.png)
+
+![alt text](Img12.png)
 
 Pod adresem ([https://gitlab.com/mniewins66/templtemn.git]) znajduje się przykładowy plik markdown z którego można wygenerować prezentację w formacie pdf wykorzystując klasę latexa beamer.
 
