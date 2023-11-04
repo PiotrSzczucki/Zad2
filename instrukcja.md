@@ -77,15 +77,36 @@ Wszystkie te języki znaczników cechują się rozbudowaną i złożoną składn
 
 * Markdown Extra
 
-
 ## Podstawy składni
+Podany link: [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet] zawiera opis podstawowych elementów składni w języku angielskim. Poniżej zostanie przedstawiony ich krótki opis w języku polskim.
 ### Definiowanie nagłówków
+W tym celu używamy znaku kratki
+
+Lewe okno zawiera kod źródłowy - prawe - podgląd przetworzonego tekstu
 ### Definiowanie list
+Listy numerowane definiujemy wstawiając numery kolejnych pozycji zakończone kropką. Listy numerowane definiujemy znakami: *,+,-
+
 ### Wyróżnianie tekstu
+
 ### Tabele
+Centrowanie zawartości kolumn realizowane jest poprzez odpowiednie użycie znaku dwukropka:
+
 ### Odnośniki do zasobów
+\[odnośnik do zasobów](www.gazeta.pl)
+
+\[odnośnik do pliku](LICENSE.md)
+
+\[odnośnik do kolejnego zasobu][1]
+
+\[1]:http://google.com
+
 #### Obrazki
+![alt text]\(https:server.com/images/icon48.png "Logo 1") - obrazek z zasobów internetowych
+
+![logo.png] - obraz z lokalnych zasobów
+
 #### Kod źródłowy dla różnych języków programowania
+
 #### Tworzenie spisu treści na podstawie nagłówków
 
 ## Edytory dedykowane
